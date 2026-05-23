@@ -41,8 +41,8 @@ export async function verifyPhoneOtp(phone: string, token: string, username: str
 
 // ========== 微信 OAuth ==========
 export async function signInWithWechat() {
-  const { data, error } = await supabase.auth.signInWithOAuth({
-    provider: 'wechat',
+  const { error } = await supabase.auth.signInWithOAuth({
+    provider: 'wechat' as any,
     options: { redirectTo: window.location.origin + '/auth/callback' },
   });
   return { error: error?.message };

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { supabase } from '../lib/supabase';
+// AuthCallback handles OAuth redirects
 
 export default function AuthCallback() {
   const [message, setMessage] = useState('正在处理登录...');

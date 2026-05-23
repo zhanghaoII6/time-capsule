@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getCurrentUser, isAdmin, signOut } from '../lib/auth';
+import { getCurrentUser, signOut } from '../lib/auth';
 import { supabase } from '../lib/supabase';
 import { fetchAllUsers, fetchStats } from '../lib/db';
 import './AdminPage.css';
