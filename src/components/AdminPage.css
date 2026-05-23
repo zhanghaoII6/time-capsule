@@ -1,0 +1,137 @@
+.adminPage {
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.adminHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.adminTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--brown-dark);
+  margin: 0;
+}
+
+.adminSub {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.adminLogout {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--brown-dark);
+  cursor: pointer;
+}
+
+/* Stats */
+.adminStats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.statCard {
+  flex: 1;
+  background: var(--white);
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.statNum {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--brown);
+}
+
+.statLabel {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.adminSectionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--brown-dark);
+  margin: 0 0 12px;
+}
+
+.adminLoading {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px;
+}
+
+/* Table */
+.adminTableWrap {
+  background: var(--white);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.adminTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.adminTable th {
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: var(--brown);
+  background: #FAF8F5;
+  border-bottom: 1px solid var(--border);
+}
+
+.adminTable td {
+  padding: 12px 16px;
+  color: var(--brown-dark);
+  border-bottom: 1px solid #F0EBE3;
+}
+
+.adminTable tr:last-child td {
+  border-bottom: none;
+}
+
+.typeBadge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.type-email { background: #DBEAFE; color: #1E40AF; }
+.type-phone { background: #D1FAE5; color: #065F46; }
+.type-wechat { background: #D1FAE5; color: #065F46; }
+.type-qq { background: #E0E7FF; color: #3730A3; }
+.type-key { background: #FEF3C7; color: #92400E; }
+
+.adminActionBtn {
+  font-size: 12px;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--brown);
+  cursor: pointer;
+}
+
+.adminActionBtn:hover {
+  background: var(--cream);
+}
