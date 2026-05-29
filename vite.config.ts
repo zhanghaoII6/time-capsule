@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['camera.svg'],
       manifest: {
-        name: '时光胶囊',
-        short_name: '时光胶囊',
+        name: 'Memory Vault',
+        short_name: 'Memory Vault',
         description: '记录每一天的点滴',
         theme_color: '#F5F0E8',
         background_color: '#F5F0E8',
